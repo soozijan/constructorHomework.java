@@ -11,6 +11,8 @@ public class Country {
     public double size;
     public int numberOfCitizens;
     public String contient;
+    
+   
 
 
    // public Country(String name, double size, int numberOfCitizens, String contient) {
@@ -30,3 +32,12 @@ public class Country {
          //       '}';
   //  }
 //}
+
+  //functions:
+ public void printCountrySize() {
+        System.out.println (String.format ("The country size is %d, size"));
+    }
+    public void printSizePerCitizen()   {
+        System.out.println (String.format ("The size of citizens is %d", numberOfCitizens));
+    }
+}
